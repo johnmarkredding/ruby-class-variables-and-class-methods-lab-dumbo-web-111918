@@ -29,10 +29,10 @@ class Song
     end
     result
   end
-  def self.genre_count
+  def artist.genre_count
     result = {}
-    for genre in @@genres.uniq
-      result[genre] = @@genres.count(genre)
+    for artist in @@artists.uniq
+      result[artist] = @@artists.count(artist)
     end
     result
   end
