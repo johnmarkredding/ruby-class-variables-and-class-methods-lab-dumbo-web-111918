@@ -24,7 +24,8 @@ class Song
   end
   def self.genre_count
     for genre in @@genres.uniq
-    result[genre] = @@genres.count(genre)
+      result[genre] = @@genres.count(genre)
+    end
   end
   
 end
